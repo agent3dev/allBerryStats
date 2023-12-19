@@ -7,8 +7,7 @@ import requests_cache
 import numpy as np
 
 load_dotenv()
-requests_cache.install_cache(expire_after=os.getenv("EXPIRATION"),
-                             allowable_methods='GET')
+requests_cache.install_cache(expire_after=3600, allowable_methods='GET')
 
 class BerryStats:
     def __init__(self):
