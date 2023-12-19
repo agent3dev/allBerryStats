@@ -57,3 +57,11 @@ To launch the API tests execute the command:
 ./allBerryStats/venv/bin/pytest ./allBerryStats/test_berries.py
 ```
 Adjusting the routes if necessary.
+
+You can check out the API live on Python Anywhere:
+
+```
+http://edgarrivera.pythonanywhere.com/
+http://edgarrivera.pythonanywhere.com/allBerryStats
+http://edgarrivera.pythonanywhere.com/histogram
+```
