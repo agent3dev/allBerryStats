@@ -20,14 +20,15 @@ Activate the virtual environment:
 
 For Windows:
 
-bash
-Copy
+```
 .\venv\Scripts\activate
+```
 For macOS and Linux:
 
-bash
-Copy
+```
 source venv/bin/activate
+```
+
 Install the required dependencies:
 
 ```
